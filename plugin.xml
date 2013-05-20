@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+id="org.apache.cordova.core"
+    version="0.1.0">
+	
+    <name>Console</name>
+
+    <js-module src="www/console-via-logger.js" name="console">
+        <clobbers target="window.console" />
+    </js-module>
+    
+    <js-module src="www/logger.js" name="logger">
+        <clobbers target="window.logger" />
+    </js-module>
+    
+    <!-- ios -->
+    <platform name="ios">
+        
+        <config-file target="config.xml" parent="/*">
+		<feature name="Console">
+			<param name="ios-package" value="CDVLogger"/>
+		</feature>
+        </config-file>
+        
+	<header-file src="src/ios/CDVLogger.h" />
+	<source-file src="src/ios/CDVLogger.m" />
+        
+    </platform>
+    
+</plugin>
