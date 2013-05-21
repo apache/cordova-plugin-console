@@ -21,7 +21,7 @@
 
 //------------------------------------------------------------------------------
 
-var logger = require("cordova/plugin/logger");
+var logger = require("org.apache.cordova.core.console.logger");
 var utils  = require("cordova/utils");
 
 //------------------------------------------------------------------------------
