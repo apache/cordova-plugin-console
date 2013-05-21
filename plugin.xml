@@ -8,11 +8,11 @@ id="org.apache.cordova.core.console"
     <name>Console</name>
 
     <js-module src="www/console-via-logger.js" name="console">
-        <clobbers target="window.console" />
+        <clobbers target="console" />
     </js-module>
     
     <js-module src="www/logger.js" name="logger">
-        <clobbers target="window.logger" />
+        <clobbers target="cordova.logger" />
     </js-module>
     
     <!-- ios -->
