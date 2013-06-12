@@ -28,5 +28,16 @@ id="org.apache.cordova.core.console"
 	<source-file src="src/ios/CDVLogger.m" />
         
     </platform>
+
+    <!-- wp7 -->
+    <platform name="wp7">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Console">
+                <param name="wp-package" value="DebugConsole"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/wp7/DebugConsole.cs" /> 
+    </platform>
     
 </plugin>
