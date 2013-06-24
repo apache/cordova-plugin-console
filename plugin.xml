@@ -37,7 +37,18 @@ id="org.apache.cordova.core.console"
             </feature>
         </config-file>
 
-        <source-file src="src/wp7/DebugConsole.cs" /> 
+        <source-file src="src/wp7/DebugConsole.cs" />
+    </platform>
+
+    <!-- wp8 -->
+    <platform name="wp8">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Console">
+                <param name="wp-package" value="DebugConsole"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/wp8/DebugConsole.cs" />
     </platform>
     
 </plugin>
