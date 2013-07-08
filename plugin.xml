@@ -36,7 +36,7 @@
             </feature>
         </config-file>
 
-        <source-file src="src/wp7/DebugConsole.cs" />
+        <source-file src="src/wp/DebugConsole.cs" />
     </platform>
 
     <!-- wp8 -->
@@ -47,7 +47,7 @@
             </feature>
         </config-file>
 
-        <source-file src="src/wp8/DebugConsole.cs" />
+        <source-file src="src/wp/DebugConsole.cs" />
     </platform>
     
 </plugin>
