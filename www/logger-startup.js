@@ -20,5 +20,5 @@
 */
 
 // use the native logger
-var logger = require("cordova/plugin/logger");
+var logger = require("./logger");
 logger.useConsole(true);

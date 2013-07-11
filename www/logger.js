@@ -220,7 +220,7 @@ logger.logLevel = function(level /* , ... */) {
 
     // Log using the native logger if that is enabled
     if (UseLogger) {
-        exec(null, null, "Logger", "logLevel", [level, message]);
+        exec(null, null, "Console", "logLevel", [level, message]);
     }
 
     // Log using the console if that is enabled
