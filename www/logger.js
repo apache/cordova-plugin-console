@@ -195,6 +195,11 @@ function logWithArgs(level, args) {
     logger.logLevel.apply(logger, args);
 }
 
+// return the correct formatString for an object
+function formatStringForMessage(message) {
+    return (typeof message === "string") ? "" : "%o"; 
+}
+
 /**
  * Logs a message at the specified level.
  *
@@ -204,6 +209,7 @@ function logWithArgs(level, args) {
 logger.logLevel = function(level /* , ... */) {
     // format the message with the parameters
     var formatArgs = [].slice.call(arguments, 1);
+    formatArgs.unshift(formatStringForMessage(formatArgs[0])); // add formatString
     var message    = logger.format.apply(logger.format, formatArgs);
 
     if (LevelsMap[level] === null) {
