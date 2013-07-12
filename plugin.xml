@@ -23,10 +23,6 @@
             <clobbers target="cordova.logger" />
         </js-module>
 
-        <js-module src="www/logger-startup.js" name="startup">
-            <runs />
-        </js-module>
-
 	<header-file src="src/ios/CDVLogger.h" />
 	<source-file src="src/ios/CDVLogger.m" />
 

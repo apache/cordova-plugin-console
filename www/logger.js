@@ -45,7 +45,7 @@ var logger = exports;
 var exec    = require('cordova/exec');
 var utils   = require('cordova/utils');
 
-var UseConsole   = true;
+var UseConsole   = false;
 var UseLogger    = true;
 var Queued       = [];
 var DeviceReady  = false;
@@ -232,7 +232,7 @@ logger.logLevel = function(level /* , ... */) {
     // Log using the console if that is enabled
     if (UseConsole) {
         // make sure console is not using logger
-        if (console.__usingCordovaLogger) {
+        if (console.useLogger()) {
             throw new Error("console and logger are too intertwingly");
         }
 
