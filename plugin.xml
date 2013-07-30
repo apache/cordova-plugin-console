@@ -5,6 +5,9 @@
       version="0.1.0">
 
     <name>Console</name>
+    <description>Cordova Console Plugin</description>
+    <license>Apache</license>
+    <keywords>cordova,console</keywords>
 
     <!-- ios -->
     <platform name="ios">
