@@ -6,7 +6,7 @@
 
     <name>Console</name>
     <description>Cordova Console Plugin</description>
-    <license>Apache</license>
+    <license>Apache 2.0</license>
     <keywords>cordova,console</keywords>
 
     <!-- ios -->
