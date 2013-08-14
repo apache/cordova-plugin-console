@@ -4,7 +4,7 @@
            id="org.apache.cordova.core.console"
       version="0.1.0">
 
-    <name>console</name>
+    <name>Console</name>
     <description>Cordova Console Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,console</keywords>
