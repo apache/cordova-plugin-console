@@ -27,23 +27,22 @@ using System.Diagnostics;
 namespace WPCordovaClassLib.Cordova.Commands
 {
 
-    public class DebugConsole : BaseCommand
+    public class Console : BaseCommand
     {
-        // warn, error
-        public void log(string msg)
+        public void logLevel(string options)
         {
-            Debug.WriteLine("Log:" + msg);
-        }
+            string[] args = JSON.JsonHelper.Deserialize<string[]>(options);
+            string level = args[0];
+            string msg = args[1];
 
-        public void error(string msg)
-        {
-            Debug.WriteLine("Error:" + msg);
+            if (level.Equals("LOG"))
+            {
+                Debug.WriteLine(msg);
+            }
+            else
+            {
+                Debug.WriteLine(level + ": " + msg);
+            }
         }
-
-        public void warn(string msg)
-        {
-            Debug.WriteLine("Warn:" + msg);
-        }
-
     }
 }
