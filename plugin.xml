@@ -35,7 +35,7 @@
     <platform name="wp7">
         <config-file target="config.xml" parent="/*">
             <feature name="Console">
-                <param name="wp-package" value="DebugConsole"/>
+                <param name="wp-package" value="Console"/>
             </feature>
         </config-file>
 
@@ -47,14 +47,14 @@
             <clobbers target="cordova.logger" />
         </js-module>
 
-        <source-file src="src/wp/DebugConsole.cs" />
+        <source-file src="src/wp/Console.cs" />
     </platform>
 
     <!-- wp8 -->
     <platform name="wp8">
         <config-file target="config.xml" parent="/*">
             <feature name="Console">
-                <param name="wp-package" value="DebugConsole"/>
+                <param name="wp-package" value="Console"/>
             </feature>
         </config-file>
 
@@ -66,7 +66,7 @@
             <clobbers target="cordova.logger" />
         </js-module>
 
-        <source-file src="src/wp/DebugConsole.cs" />
+        <source-file src="src/wp/Console.cs" />
     </platform>
 
         <!-- windows8 -->
