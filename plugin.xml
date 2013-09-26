@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="org.apache.cordova.console"
-      version="0.2.3-dev">
+      version="0.2.3">
 
     <name>Console</name>
     <description>Cordova Console Plugin</description>

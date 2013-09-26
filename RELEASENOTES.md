@@ -20,4 +20,8 @@
 -->
 # Release Notes
 
-
+### 0.2.3 (Sept 25, 2013)
+* CB-4889 bumping&resetting version
+* CB-4889 renaming org.apache.cordova.core.console to org.apache.cordova.console
+* Rename CHANGELOG.md -> RELEASENOTES.md
+* [CB-4752] Incremented plugin version on dev branch.
