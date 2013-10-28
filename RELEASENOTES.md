@@ -25,3 +25,8 @@
 * CB-4889 renaming org.apache.cordova.core.console to org.apache.cordova.console
 * Rename CHANGELOG.md -> RELEASENOTES.md
 * [CB-4752] Incremented plugin version on dev branch.
+
+ ### 0.2.4 (Oct 28, 2013)
+* CB-5154 log formatting incorrectly to native
+* CB-5128: added repo + issue tag to plugin.xml for console plugin
+* [CB-4915] Incremented plugin version on dev branch.
