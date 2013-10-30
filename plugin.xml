@@ -33,6 +33,21 @@
 
     </platform>
 
+    <!-- ubuntu -->
+    <platform name="ubuntu">
+        <js-module src="www/console-via-logger.js" name="console">
+            <clobbers target="console" />
+        </js-module>
+
+        <js-module src="www/logger.js" name="logger">
+            <clobbers target="cordova.logger" />
+        </js-module>
+
+        <header-file src="src/ubuntu/console.h" />
+        <source-file src="src/ubuntu/console.cpp" />
+
+    </platform>
+
     <!-- wp7 -->
     <platform name="wp7">
         <config-file target="config.xml" parent="/*">
