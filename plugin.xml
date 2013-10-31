@@ -37,7 +37,7 @@
     <platform name="wp7">
         <config-file target="config.xml" parent="/*">
             <feature name="Console">
-                <param name="wp-package" value="DebugConsole"/>
+                <param name="wp-package" value="Console"/>
             </feature>
         </config-file>
 
@@ -56,7 +56,7 @@
     <platform name="wp8">
         <config-file target="config.xml" parent="/*">
             <feature name="Console">
-                <param name="wp-package" value="DebugConsole"/>
+                <param name="wp-package" value="Console"/>
             </feature>
         </config-file>
 
