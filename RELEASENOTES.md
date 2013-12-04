@@ -30,3 +30,6 @@
 * CB-5154 log formatting incorrectly to native
 * CB-5128: added repo + issue tag to plugin.xml for console plugin
 * [CB-4915] Incremented plugin version on dev branch.
+
+### 0.2.5 (Dec 4, 2013)
+* add ubuntu platform
