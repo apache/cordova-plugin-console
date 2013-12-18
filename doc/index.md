@@ -19,4 +19,11 @@
 
 # org.apache.cordova.console
 
-Plugin documentation: [doc/index.md](doc/index.md)
+This plugin is meant to ensure that console.log() is as useful as it can be. If
+you are not unhappy with how console.log() works for you, then you probably
+don't need this plugin.
+
+## Installation
+
+    cordova plugin add org.apache.cordova.console
+
