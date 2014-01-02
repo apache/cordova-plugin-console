@@ -33,3 +33,6 @@
 
 ### 0.2.5 (Dec 4, 2013)
 * add ubuntu platform
+
+### 0.2.6 (Jan 02, 2014)
+* CB-5658 Add doc/index.md for Console plugin
