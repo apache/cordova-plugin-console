@@ -26,7 +26,7 @@ using System.Diagnostics;
 
 namespace WPCordovaClassLib.Cordova.Commands
 {
-    public class Console : BaseCommand
+    public class DebugConsole : BaseCommand
     {
         public void logLevel(string options)
         {
