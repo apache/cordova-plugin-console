@@ -36,3 +36,7 @@
 
 ### 0.2.6 (Jan 02, 2014)
 * CB-5658 Add doc/index.md for Console plugin
+
+### 0.2.7 (Feb 05, 2014)
+* Native console needs to be called DebugConsole to avoid ambiguous reference. This commit requires the 3.4.0 version of the native class factory
+* CB-4718 fixed Console plugin not working on wp
