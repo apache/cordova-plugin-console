@@ -13,35 +13,35 @@
 */
 
 using System;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Ink;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 using System.Diagnostics;
 
 namespace WPCordovaClassLib.Cordova.Commands
 {
-    public class DebugConsole : BaseCommand
-    {
-        public void logLevel(string options)
-        {
-            string[] args = JSON.JsonHelper.Deserialize<string[]>(options);
-            string level = args[0];
-            string msg = args[1];
+	public class DebugConsole : BaseCommand
+	{
+		private readonly Logger logger;
 
-            if (level.Equals("LOG"))
-            {
-                Debug.WriteLine(msg);
-            }
-            else
-            {
-                Debug.WriteLine(level + ": " + msg);
-            }
-        }
-    }
+		public DebugConsole()
+		{
+			this.logger = new Logger();
+		}
+
+		public void logLevel(string options)
+		{
+			var message = ParseMessage(options);
+
+			Debug.WriteLine(message);
+
+			this.logger.Log(message);
+		}
+		
+		private static string ParseMessage(string options)
+		{
+			var args = JSON.JsonHelper.Deserialize<string[]>(options);
+			var level = args[0];
+			var message = args[1];
+			
+			return level.Equals("LOG", StringComparison.InvariantCultureIgnoreCase) ? message : string.Format("{0}: {1}", level, message);
+		}
+	}
 }

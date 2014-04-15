@@ -84,6 +84,7 @@
         </js-module>
 
         <source-file src="src/wp/DebugConsole.cs" />
+        <source-file src="src/wp/Logger.cs" />
     </platform>
 
         <!-- windows8 -->
