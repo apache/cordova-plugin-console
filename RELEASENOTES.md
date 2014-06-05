@@ -44,3 +44,8 @@
 ### 0.2.8 (Apr 17, 2014)
 * CB-6460: Update license headers
 * Add NOTICE file
+
+### 0.2.9 (Jun 05, 2014)
+* CB-6848 Add Android quirk, list applicable platforms
+* CB-6796 Add license
+* CB-6491 add CONTRIBUTING.md
