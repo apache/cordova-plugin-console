@@ -52,3 +52,6 @@
 
 ### 0.2.10 (Aug 06, 2014)
 * CB-6127 Updated translations for docs
+
+### 0.2.11 (Sep 17, 2014)
+* CB-7249 cordova-plugin-console documentation translation
