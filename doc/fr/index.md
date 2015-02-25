@@ -21,9 +21,17 @@
 
 Ce plugin est destiné à faire en sorte que console.log() est aussi utile que possible. Il ajoute une fonction supplémentaire pour iOS, Ubuntu, Windows Phone 8 et Windows 8. Si vous êtes satisfait du fonctionnement de console.log() pour vous, alors vous avez probablement pas besoin ce plugin.
 
+Ce plugin définit un global `console` objet.
+
+Bien que l'objet est dans la portée globale, les fonctions offertes par ce plugin ne sont pas disponibles jusqu'après la `deviceready` événement.
+
+    document.addEventListener (« deviceready », onDeviceReady, false) ;
+    function onDeviceReady() {console.log ("console.log fonctionne bien");}
+    
+
 ## Installation
 
-    cordova plugin add org.apache.cordova.console
+    Cordova plugin ajouter org.apache.cordova.console
     
 
 ### Quirks Android

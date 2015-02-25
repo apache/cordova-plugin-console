@@ -21,6 +21,16 @@
 
 Dieses Plugin stellt sicher, dass der Befehl console.log() so hilfreich ist, wie er sein kann. Es fügt zusätzliche Funktion für iOS, Ubuntu, Windows Phone 8 und Windows 8 hinzu. Teilweise kann es vorkommen, dass der Befehl console.log() nicht korrekt erkannt wird, und es zu Fehlern bzw. zu nicht angezeigten Logs in der Console kommt. Wenn Sie mit der derzeitigen Funktionsweise zufrieden sind, kann es sein, dass Sie dieses Plugin nicht benötigen.
 
+Dieses Plugin wird ein global-`console`-Objekt definiert.
+
+Obwohl das Objekt im globalen Gültigkeitsbereich ist, stehen Features von diesem Plugin nicht bis nach dem `deviceready`-Ereignis.
+
+    document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+        console.log("console.log works well");
+    }
+    
+
 ## Installation
 
     cordova plugin add org.apache.cordova.console
@@ -28,4 +38,4 @@ Dieses Plugin stellt sicher, dass der Befehl console.log() so hilfreich ist, wie
 
 ### Android Eigenarten
 
-Auf einigen anderen Plattformen als Android reagiert der Befehl console.log ("1", "2", "3") auf mehrere Befehle. In diesem Fall 1, 2 und 3. Android wird jedoch nur auf das erste Argument (1) reagieren. Nachfolgende Argumente zu console.log() (2 und 3) werden ignoriert. Dafür ist aber nicht dieses Plugin verantwortlich! Es ist eine Limitierung die von Android kommt und nicht von diesem Plugin beeinflusst werden kann.
+Auf einigen Plattformen als Android fungieren console.log() auf mehrere Argumente wie console.log ("1", "2", "3"). Android wird jedoch nur auf das erste Argument fungieren. Nachfolgende Argumente zu console.log() werden ignoriert. Dieses Plugin ist nicht die Verantwortung dafür, es ist eine Einschränkung von Android selbst.
