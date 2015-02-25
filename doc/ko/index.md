@@ -21,6 +21,16 @@
 
 이 플러그인을 console.log()로 수 유용 되도록 의미입니다. IOS, 우분투, Windows Phone 8 및 윈도우 8에 대 한 추가 기능을 추가 하 고 합니다. Console.log() 당신을 위해 작동 하는 어떻게 행복 한 경우에, 그때 당신은 아마 필요 하지 않습니다이 플러그인.
 
+이 플러그인 글로벌 `console` 개체를 정의합니다.
+
+개체가 전역 범위에 있지만,이 플러그인에 의해 제공 되는 기능 하지 사용할 수 있습니다까지 `deviceready` 이벤트 후.
+
+    document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+        console.log("console.log works well");
+    }
+    
+
 ## 설치
 
     cordova plugin add org.apache.cordova.console
