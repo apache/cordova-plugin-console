@@ -17,7 +17,7 @@
     under the License.
 -->
 
-# org.apache.cordova.console
+# cordova-plugin-console
 
 這個外掛程式是為了確保該 console.log() 是一樣有用，它可以是。 它將添加附加功能的 iOS、 Ubuntu，Windows Phone 8 和 Windows 8。 如果你是快樂與 console.log() 是如何為你工作，那麼可能不需要這個外掛程式。
 
@@ -33,7 +33,7 @@
 
 ## 安裝
 
-    cordova plugin add org.apache.cordova.console
+    cordova plugin add cordova-plugin-console
     
 
 ### Android 的怪癖

@@ -17,13 +17,13 @@
     under the License.
 -->
 
-# org.apache.cordova.console
+# cordova-plugin-console
 
 Этот плагин предназначен для обеспечения как полезным, поскольку это может быть что console.log(). Он добавляет дополнительные функции для iOS, Ubuntu, Windows Phone 8 и Windows 8. Если вы не довольны как console.log() работает для вас, то вы вероятно не нужен этот плагин.
 
 ## Установка
 
-    cordova plugin add org.apache.cordova.console
+    cordova plugin add cordova-plugin-console
     
 
 ### Особенности Android

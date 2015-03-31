@@ -17,7 +17,7 @@
     under the License.
 -->
 
-# org.apache.cordova.console
+# cordova-plugin-console
 
 이 플러그인을 console.log()로 수 유용 되도록 의미입니다. IOS, 우분투, Windows Phone 8 및 윈도우 8에 대 한 추가 기능을 추가 하 고 합니다. Console.log() 당신을 위해 작동 하는 어떻게 행복 한 경우에, 그때 당신은 아마 필요 하지 않습니다이 플러그인.
 
@@ -33,7 +33,7 @@
 
 ## 설치
 
-    cordova plugin add org.apache.cordova.console
+    cordova plugin add cordova-plugin-console
     
 
 ### 안 드 로이드 단점

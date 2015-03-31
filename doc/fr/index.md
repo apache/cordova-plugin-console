@@ -17,7 +17,7 @@
     under the License.
 -->
 
-# org.apache.cordova.console
+# cordova-plugin-console
 
 Ce plugin est destiné à faire en sorte que console.log() est aussi utile que possible. Il ajoute une fonction supplémentaire pour iOS, Ubuntu, Windows Phone 8 et Windows 8. Si vous êtes satisfait du fonctionnement de console.log() pour vous, alors vous avez probablement pas besoin ce plugin.
 
@@ -31,7 +31,7 @@ Bien que l'objet est dans la portée globale, les fonctions offertes par ce plug
 
 ## Installation
 
-    Cordova plugin ajouter org.apache.cordova.console
+    Cordova plugin ajouter cordova-plugin-console
     
 
 ### Quirks Android
