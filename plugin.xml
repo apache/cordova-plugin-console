@@ -19,7 +19,7 @@
 -->
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-           id="org.apache.cordova.console"
+           id="cordova-plugin-console"
       version="0.2.14-dev">
 
     <name>Console</name>
