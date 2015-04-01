@@ -3,7 +3,7 @@
   "version": "0.2.14-dev",
   "description": "Cordova Console Plugin",
   "cordova": {
-    "id": "cordova-plugin-console",
+    "id": "org.apache.cordova.console",
     "platforms": [
       "ios",
       "ubuntu",
