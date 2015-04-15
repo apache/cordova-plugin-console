@@ -62,3 +62,15 @@
 
 ### 0.2.13 (Feb 04, 2015)
 * CB-8351 ios: Use argumentForIndex rather than NSArray extension
+
+### 1.0.0 (Apr 15, 2015)
+* CB-8746 gave plugin major version bump
+* CB-8683 changed plugin-id to pacakge-name
+* CB-8653 updated translated docs to use new id
+* Use TRAVIS_BUILD_DIR, install paramedic by npm
+* docs: renamed Windows8 to Windows
+* CB-8653 Updated Readme
+* CB-8560 Integrate TravisCI
+* CB-8438 cordova-plugin-console documentation translation: cordova-plugin-console
+* CB-8538 Added package.json file
+* CB-8362 Add Windows platform section to Console plugin
