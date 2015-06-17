@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-console.git"
+    "url": "https://github.com/apache/cordova-plugin-console"
   },
   "keywords": [
     "cordova",
