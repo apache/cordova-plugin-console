@@ -19,7 +19,6 @@
 
 # cordova-plugin-console
 
-[![Build Status](https://travis-ci.org/apache/cordova-plugin-console.svg)](https://travis-ci.org/apache/cordova-plugin-console)
 
 This plugin is meant to ensure that console.log() is as useful as it can be.
 It adds additional function for iOS, Ubuntu, Windows Phone 8, and Windows. If
