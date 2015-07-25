@@ -45,3 +45,42 @@ On some platforms other than Android, console.log() will act on multiple
 arguments, such as console.log("1", "2", "3"). However, Android will act only
 on the first argument. Subsequent arguments to console.log() will be ignored.
 This plugin is not the cause of that, it is a limitation of Android itself.
+
+## Supported Methods
+
+The plugin support following methods of the `console` object:
+
+- `console.log`
+- `console.error`
+- `console.exception`
+- `console.warn`
+- `console.info`
+- `console.debug`
+- `console.assert`
+- `console.dir`
+- `console.dirxml`
+- `console.time`
+- `console.timeEnd`
+- `console.table`
+
+## Partially supported Methods
+
+Methods of the `console` object which implemented, but behave different from browser implementation:
+
+- `console.group`
+- `console.groupCollapsed`
+
+The grouping methods are just log name of the group and don't actually indicate grouping for later 
+calls to `console` object methods.
+
+## Not supported Methods
+
+Methods of the `console` object which are implemented, but do nothing:
+
+- `console.clear`
+- `console.trace`
+- `console.groupEnd`
+- `console.timeStamp`
+- `console.profile`
+- `console.profileEnd`
+- `console.count`
