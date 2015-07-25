@@ -84,3 +84,17 @@ Methods of the `console` object which are implemented, but do nothing:
 - `console.profile`
 - `console.profileEnd`
 - `console.count`
+
+## Supported formatting
+
+The following formatting options available:
+
+Format chars:
+
+*  `%j` - format arg as JSON
+*  `%o` - format arg as JSON
+*  `%c` - format arg as `''`. No color formatting could be done.
+*  `%%` - replace with `'%'`
+
+any other char following `%` will format it's
+arg via `toString()`.
