@@ -20,6 +20,13 @@
 -->
 # Release Notes
 
+### 1.0.2 (Nov 18, 2015)
+* CB-10035 Updated `RELEASENOTES` to be newest to oldest
+* Fixing contribute link.
+* Document formatting options for the console object
+* CB-5089 Document supported methods for console object
+* reverted `d58f218b9149d362ebb0b8ce697cf403569d14cd` because `logger` is not needed on **Android**
+
 ### 1.0.1 (Jun 17, 2015)
 * move logger.js and console-via-logger.js to common modules, instead of the numerous repeats that were there.
 * clean up tests, info is below log level so it does not exist by default.
