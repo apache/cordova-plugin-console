@@ -1,3 +1,7 @@
+---
+title: Console
+description: Get JavaScript logs in your native logs.
+---
 <!---
 # license: Licensed to the Apache Software Foundation (ASF) under one
 #         or more contributor license agreements.  See the NOTICE file
