@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-console",
-  "version": "1.0.7",
+  "version": "1.0.8-dev",
   "description": "Cordova Console Plugin",
   "cordova": {
     "id": "cordova-plugin-console",
