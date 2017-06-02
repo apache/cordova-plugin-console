@@ -19,6 +19,7 @@
 
 #import "CDVLogger.h"
 #import <Cordova/CDV.h>
+@import os.log;
 
 @implementation CDVLogger
 
@@ -29,9 +30,10 @@
     id message = [command argumentAtIndex:1];
 
     if ([level isEqualToString:@"LOG"]) {
-        NSLog(@"%@", message);
+        os_log(OS_LOG_TYPE_DEFAULT, message);
     } else {
-        NSLog(@"%@: %@", level, message);
+     var messageWithLevel = level + " : " +message;
+        os_log(OS_LOG_TYPE_DEFAULT, messageWithLevel);
     }
 }
 
