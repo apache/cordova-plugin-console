@@ -20,7 +20,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="cordova-plugin-console"
-      version="1.0.8-dev">
+      version="2.0.0-dev">
 
     <name>Console</name>
     <description>Cordova Console Plugin</description>
@@ -28,6 +28,11 @@
     <keywords>cordova,console</keywords>
     <repo>https://git-wip-us.apache.org/repos/asf/cordova-plugin-console.git</repo>
     <issue>https://issues.apache.org/jira/browse/CB/component/12320644</issue>
+
+    <engines>
+        <engine name="cordova-windows" version="<=5.0.0"/>
+        <engine name="cordova-ios" version="<4.5.0"/>
+    </engines>
 
     <!-- ios -->
     <platform name="ios">
