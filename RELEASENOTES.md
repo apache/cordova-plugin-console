@@ -20,6 +20,15 @@
 -->
 # Release Notes
 
+### 2.0.0 (Sep 18, 2017)
+* [CB-13170](https://issues.apache.org/jira/browse/CB-13170) Integrated this plugin into `cordova-ios@4.5.0`. This plugin will not install for `cordova-ios >= 4.5.0`.
+* [CB-13028](https://issues.apache.org/jira/browse/CB-13028) (CI) **Browser** builds on `Travis` and `AppVeyor`
+* [CB-13000](https://issues.apache.org/jira/browse/CB-13000) (CI) Speed up **Android** builds
+* [CB-12991](https://issues.apache.org/jira/browse/CB-12991) (CI) Updated CI badges
+* [CB-12935](https://issues.apache.org/jira/browse/CB-12935) (**windows**) Enable paramedic builds on AppVeyor
+* [CB-12935](https://issues.apache.org/jira/browse/CB-12935) (**ios**, **Android**) Run `paramedic` builds on `Travis`
+* [CB-12847](https://issues.apache.org/jira/browse/CB-12847) added `bugs` entry to `package.json`.
+
 ### 1.0.7 (Apr 27, 2017)
 * [CB-12622](https://issues.apache.org/jira/browse/CB-12622) Added **Android 6.0** build badge to `README`
 * [CB-12685](https://issues.apache.org/jira/browse/CB-12685) added `package.json` to tests folder
