@@ -20,7 +20,7 @@
 -->
 # Release Notes
 
-### 2.0.0 (Sep 18, 2017)
+### 1.1.0 (Sep 18, 2017)
 * [CB-13170](https://issues.apache.org/jira/browse/CB-13170) Integrated this plugin into `cordova-ios@4.5.0`. This plugin will not install for `cordova-ios >= 4.5.0`.
 * [CB-13028](https://issues.apache.org/jira/browse/CB-13028) (CI) **Browser** builds on `Travis` and `AppVeyor`
 * [CB-13000](https://issues.apache.org/jira/browse/CB-13000) (CI) Speed up **Android** builds
