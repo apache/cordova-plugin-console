@@ -29,7 +29,8 @@ description: Get JavaScript logs in your native logs.
 
 ## Deprecated
 
-> This plugin is no longer being worked on as the functionality provided by this plugin is now included in cordova-ios 4.5.0 or greater, and support is already built in to cordova-windows > 5.0.0. You should upgrade your application to use version 2.0.0 of this plugin. It will detect whether or not the plugin is required based on the version of cordova-ios and cordova-windows your app uses.
+> This plugin is no longer being worked on as the functionality provided by this plugin is now included in cordova-ios 4.5.0 or greater, and support is already built in to cordova-windows > 5.0.0. You should remove this plugin from your applications.
+ 
 > Please file issues for this plugin against their respective platforms (cordova-ios, cordova-windows).
 
 ## Description

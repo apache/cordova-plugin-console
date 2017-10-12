@@ -39,7 +39,7 @@
   "license": "Apache-2.0",
   "engines": {
     "cordovaDependencies": {
-      ">=2.0.0": {
+      ">=1.1.0": {
         "cordova-ios": "<4.5.0",
         "cordova-windows": "<=5.0.0"
       }
